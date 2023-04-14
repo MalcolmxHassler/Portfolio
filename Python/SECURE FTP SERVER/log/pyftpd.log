@@ -1,0 +1,412 @@
+INFO:pyftpdlib:concurrency model: async
+INFO:pyftpdlib:masquerade (NAT) address: None
+INFO:pyftpdlib:passive ports: None
+DEBUG:pyftpdlib:poller: 'pyftpdlib.ioloop.Select'
+DEBUG:pyftpdlib:authorizer: 'pyftpdlib.authorizers.DummyAuthorizer'
+DEBUG:pyftpdlib:handler: 'pyftpdlib.handlers.type'
+DEBUG:pyftpdlib:max connections: 1000
+DEBUG:pyftpdlib:max connections per ip: 10
+DEBUG:pyftpdlib:timeout: 300
+DEBUG:pyftpdlib:banner: 'pyftpdlib 1.5.7 ready.'
+DEBUG:pyftpdlib:max login attempts: 3
+INFO:pyftpdlib:>>> starting FTP server on 0.0.0.0:2121, pid=11364 <<<
+INFO:pyftpdlib:concurrency model: async
+INFO:pyftpdlib:masquerade (NAT) address: None
+INFO:pyftpdlib:passive ports: None
+DEBUG:pyftpdlib:poller: 'pyftpdlib.ioloop.Select'
+DEBUG:pyftpdlib:authorizer: 'pyftpdlib.authorizers.DummyAuthorizer'
+DEBUG:pyftpdlib:handler: 'pyftpdlib.handlers.type'
+DEBUG:pyftpdlib:max connections: 1000
+DEBUG:pyftpdlib:max connections per ip: 10
+DEBUG:pyftpdlib:timeout: 300
+DEBUG:pyftpdlib:banner: 'pyftpdlib 1.5.7 ready.'
+DEBUG:pyftpdlib:max login attempts: 3
+INFO:pyftpdlib:>>> starting FTP server on 0.0.0.0:2121, pid=14604 <<<
+INFO:pyftpdlib:concurrency model: async
+INFO:pyftpdlib:masquerade (NAT) address: None
+INFO:pyftpdlib:passive ports: None
+INFO:pyftpdlib:>>> starting FTP server on 0.0.0.0:2121, pid=13840 <<<
+INFO:pyftpdlib:concurrency model: async
+INFO:pyftpdlib:masquerade (NAT) address: None
+INFO:pyftpdlib:passive ports: None
+DEBUG:pyftpdlib:poller: 'pyftpdlib.ioloop.Select'
+DEBUG:pyftpdlib:authorizer: 'pyftpdlib.authorizers.DummyAuthorizer'
+DEBUG:pyftpdlib:handler: 'pyftpdlib.handlers.type'
+DEBUG:pyftpdlib:max connections: 512
+DEBUG:pyftpdlib:max connections per ip: unlimited
+DEBUG:pyftpdlib:timeout: 300
+DEBUG:pyftpdlib:banner: 'pyftpdlib 1.5.7 ready.'
+DEBUG:pyftpdlib:max login attempts: 3
+INFO:pyftpdlib:>>> starting FTP server on 127.0.0.1:2121, pid=11676 <<<
+INFO:pyftpdlib:concurrency model: async
+INFO:pyftpdlib:masquerade (NAT) address: None
+INFO:pyftpdlib:passive ports: None
+DEBUG:pyftpdlib:poller: 'pyftpdlib.ioloop.Select'
+DEBUG:pyftpdlib:authorizer: 'pyftpdlib.authorizers.DummyAuthorizer'
+DEBUG:pyftpdlib:handler: 'pyftpdlib.handlers.type'
+DEBUG:pyftpdlib:max connections: 512
+DEBUG:pyftpdlib:max connections per ip: unlimited
+DEBUG:pyftpdlib:timeout: 300
+DEBUG:pyftpdlib:banner: 'pyftpdlib 1.5.7 ready.'
+DEBUG:pyftpdlib:max login attempts: 3
+INFO:pyftpdlib:>>> starting FTP server on 127.0.0.1:2121, pid=7008 <<<
+INFO:pyftpdlib:concurrency model: async
+INFO:pyftpdlib:masquerade (NAT) address: None
+INFO:pyftpdlib:passive ports: None
+DEBUG:pyftpdlib:poller: 'pyftpdlib.ioloop.Select'
+DEBUG:pyftpdlib:authorizer: 'pyftpdlib.authorizers.DummyAuthorizer'
+DEBUG:pyftpdlib:handler: 'pyftpdlib.handlers.type'
+DEBUG:pyftpdlib:max connections: 512
+DEBUG:pyftpdlib:max connections per ip: unlimited
+DEBUG:pyftpdlib:timeout: 300
+DEBUG:pyftpdlib:banner: 'pyftpdlib 1.5.7 ready.'
+DEBUG:pyftpdlib:max login attempts: 3
+INFO:pyftpdlib:>>> starting FTP server on 127.0.0.1:21, pid=11588 <<<
+INFO:pyftpdlib:XXX []@127.0.0.1 FTP session opened (connect)
+DEBUG:pyftpdlib:XXX []@127.0.0.1 -> 220 pyftpdlib 1.5.7 ready.
+DEBUG:pyftpdlib:XXX []@127.0.0.1 <- OPTS UTF8 ON
+DEBUG:pyftpdlib:XXX []@127.0.0.1 -> 530 Log in with USER and PASS first.
+DEBUG:pyftpdlib:XXX []@127.0.0.1 <- USER user
+DEBUG:pyftpdlib:XXX []@127.0.0.1 -> 331 Username ok, send password.
+DEBUG:pyftpdlib:XXX [user]@127.0.0.1 <- PASS ******
+DEBUG:pyftpdlib:XXX [user]@127.0.0.1 -> 230 Login successful.
+INFO:pyftpdlib:XXX [user]@127.0.0.1 USER 'user' logged in.
+DEBUG:pyftpdlib:XXX [user]@127.0.0.1 <- XPWD
+DEBUG:pyftpdlib:XXX [user]@127.0.0.1 -> 257 "/" is the current directory.
+DEBUG:pyftpdlib:XXX [user]@127.0.0.1 <- PORT 127,0,0,1,194,108
+DEBUG:pyftpdlib:XXX [user]@127.0.0.1 -> 200 Active data connection established.
+DEBUG:pyftpdlib:XXX [user]@127.0.0.1 <- NLST
+DEBUG:pyftpdlib:XXX [user]@127.0.0.1 -> 125 Data connection already open. Transfer starting.
+DEBUG:pyftpdlib:[debug] call: close() (<DTPHandler(id=2317925000736, addr='127.0.0.1:49771', user='user')>)
+DEBUG:pyftpdlib:XXX [user]@127.0.0.1 -> 226 Transfer complete.
+DEBUG:pyftpdlib:XXX [user]@127.0.0.1 <- QUIT
+DEBUG:pyftpdlib:XXX [user]@127.0.0.1 -> 221 Goodbye.
+DEBUG:pyftpdlib:[debug] call: close() (<pyftpdlib.handlers.ActiveDTP connected 127.0.0.1:49772 at 0x21baf18bee0>)
+DEBUG:pyftpdlib:[debug] call: unregister(); fd was no longer in socket_map (<pyftpdlib.ioloop.Select (fds=2, tasks=4) at 0x21baf1896f0>)
+DEBUG:pyftpdlib:[debug] call: close() (<FTPHandler(id=2317925000736, addr='127.0.0.1:49771', user='user')>)
+INFO:pyftpdlib:XXX [user]@127.0.0.1 FTP session closed (disconnect).
+DEBUG:pyftpdlib:[debug] call: unregister(); fd was no longer in socket_map (<pyftpdlib.ioloop.Select (fds=0, tasks=0) at 0x200f164be50>)
+INFO:pyftpdlib:concurrency model: async
+INFO:pyftpdlib:masquerade (NAT) address: None
+INFO:pyftpdlib:passive ports: None
+DEBUG:pyftpdlib:poller: 'pyftpdlib.ioloop.Select'
+DEBUG:pyftpdlib:authorizer: 'pyftpdlib.authorizers.DummyAuthorizer'
+DEBUG:pyftpdlib:handler: 'pyftpdlib.handlers.type'
+DEBUG:pyftpdlib:max connections: 512
+DEBUG:pyftpdlib:max connections per ip: unlimited
+DEBUG:pyftpdlib:timeout: 300
+DEBUG:pyftpdlib:banner: 'pyftpdlib 1.5.7 ready.'
+DEBUG:pyftpdlib:max login attempts: 3
+INFO:pyftpdlib:>>> starting FTP server on 127.0.0.1:21, pid=11696 <<<
+INFO:pyftpdlib:concurrency model: async
+INFO:pyftpdlib:masquerade (NAT) address: None
+INFO:pyftpdlib:passive ports: None
+DEBUG:pyftpdlib:poller: 'pyftpdlib.ioloop.Select'
+DEBUG:pyftpdlib:authorizer: 'pyftpdlib.authorizers.DummyAuthorizer'
+DEBUG:pyftpdlib:handler: 'pyftpdlib.handlers.type'
+DEBUG:pyftpdlib:max connections: 512
+DEBUG:pyftpdlib:max connections per ip: unlimited
+DEBUG:pyftpdlib:timeout: 300
+DEBUG:pyftpdlib:banner: 'pyftpdlib 1.5.7 ready.'
+DEBUG:pyftpdlib:max login attempts: 3
+INFO:pyftpdlib:>>> starting FTP server on 127.0.0.1:21, pid=1312 <<<
+INFO:pyftpdlib:XXX []@127.0.0.1 FTP session opened (connect)
+DEBUG:pyftpdlib:XXX []@127.0.0.1 -> 220 pyftpdlib 1.5.7 ready.
+DEBUG:pyftpdlib:XXX []@127.0.0.1 <- OPTS UTF8 ON
+DEBUG:pyftpdlib:XXX []@127.0.0.1 -> 530 Log in with USER and PASS first.
+DEBUG:pyftpdlib:XXX []@127.0.0.1 <- USER user
+DEBUG:pyftpdlib:XXX []@127.0.0.1 -> 331 Username ok, send password.
+DEBUG:pyftpdlib:XXX [user]@127.0.0.1 <- PASS ******
+DEBUG:pyftpdlib:XXX [user]@127.0.0.1 -> 230 Login successful.
+INFO:pyftpdlib:XXX [user]@127.0.0.1 USER 'user' logged in.
+DEBUG:pyftpdlib:XXX [user]@127.0.0.1 <- PORT 127,0,0,1,194,143
+DEBUG:pyftpdlib:XXX [user]@127.0.0.1 -> 200 Active data connection established.
+DEBUG:pyftpdlib:XXX [user]@127.0.0.1 <- NLST
+DEBUG:pyftpdlib:XXX [user]@127.0.0.1 -> 125 Data connection already open. Transfer starting.
+DEBUG:pyftpdlib:[debug] call: close() (<DTPHandler(id=2262018381024, addr='127.0.0.1:49805', user='user')>)
+DEBUG:pyftpdlib:XXX [user]@127.0.0.1 -> 226 Transfer complete.
+DEBUG:pyftpdlib:XXX [user]@127.0.0.1 <- QUIT
+DEBUG:pyftpdlib:XXX [user]@127.0.0.1 -> 221 Goodbye.
+DEBUG:pyftpdlib:[debug] call: close() (<pyftpdlib.handlers.ActiveDTP connected 127.0.0.1:49807 at 0x20eaacd5720>)
+DEBUG:pyftpdlib:[debug] call: unregister(); fd was no longer in socket_map (<pyftpdlib.ioloop.Select (fds=2, tasks=4) at 0x20eaacd53c0>)
+DEBUG:pyftpdlib:[debug] call: close() (<FTPHandler(id=2262018381024, addr='127.0.0.1:49805', user='user')>)
+INFO:pyftpdlib:XXX [user]@127.0.0.1 FTP session closed (disconnect).
+INFO:pyftpdlib:concurrency model: async
+INFO:pyftpdlib:masquerade (NAT) address: None
+INFO:pyftpdlib:passive ports: None
+DEBUG:pyftpdlib:poller: 'pyftpdlib.ioloop.Select'
+DEBUG:pyftpdlib:authorizer: 'pyftpdlib.authorizers.DummyAuthorizer'
+DEBUG:pyftpdlib:handler: 'pyftpdlib.handlers.type'
+DEBUG:pyftpdlib:max connections: 512
+DEBUG:pyftpdlib:max connections per ip: unlimited
+DEBUG:pyftpdlib:timeout: 300
+DEBUG:pyftpdlib:banner: 'pyftpdlib 1.5.7 ready.'
+DEBUG:pyftpdlib:max login attempts: 3
+INFO:pyftpdlib:>>> starting FTP server on 0.0.0.0:21, pid=8500 <<<
+INFO:pyftpdlib:concurrency model: async
+INFO:pyftpdlib:masquerade (NAT) address: None
+INFO:pyftpdlib:passive ports: None
+DEBUG:pyftpdlib:poller: 'pyftpdlib.ioloop.Select'
+DEBUG:pyftpdlib:authorizer: 'pyftpdlib.authorizers.DummyAuthorizer'
+DEBUG:pyftpdlib:handler: 'pyftpdlib.handlers.type'
+DEBUG:pyftpdlib:max connections: 512
+DEBUG:pyftpdlib:max connections per ip: unlimited
+DEBUG:pyftpdlib:timeout: 300
+DEBUG:pyftpdlib:banner: 'pyftpdlib 1.5.7 ready.'
+DEBUG:pyftpdlib:max login attempts: 3
+INFO:pyftpdlib:>>> starting FTP server on 0.0.0.0:21, pid=15116 <<<
+INFO:pyftpdlib:concurrency model: async
+INFO:pyftpdlib:masquerade (NAT) address: None
+INFO:pyftpdlib:passive ports: None
+DEBUG:pyftpdlib:poller: 'pyftpdlib.ioloop.Select'
+DEBUG:pyftpdlib:authorizer: 'pyftpdlib.authorizers.DummyAuthorizer'
+DEBUG:pyftpdlib:handler: 'pyftpdlib.handlers.type'
+DEBUG:pyftpdlib:max connections: 512
+DEBUG:pyftpdlib:max connections per ip: unlimited
+DEBUG:pyftpdlib:timeout: 300
+DEBUG:pyftpdlib:banner: 'pyftpdlib 1.5.7 ready.'
+DEBUG:pyftpdlib:max login attempts: 3
+INFO:pyftpdlib:>>> starting FTP server on 0.0.0.0:21, pid=12644 <<<
+INFO:pyftpdlib:XXX []@127.0.0.1 FTP session opened (connect)
+DEBUG:pyftpdlib:XXX []@127.0.0.1 -> 220 pyftpdlib 1.5.7 ready.
+DEBUG:pyftpdlib:XXX []@127.0.0.1 <- OPTS UTF8 ON
+DEBUG:pyftpdlib:XXX []@127.0.0.1 -> 530 Log in with USER and PASS first.
+DEBUG:pyftpdlib:XXX []@127.0.0.1 <- USER user
+DEBUG:pyftpdlib:XXX []@127.0.0.1 -> 331 Username ok, send password.
+DEBUG:pyftpdlib:XXX [user]@127.0.0.1 <- PASS ******
+DEBUG:pyftpdlib:XXX [user]@127.0.0.1 -> 230 Login successful.
+INFO:pyftpdlib:XXX [user]@127.0.0.1 USER 'user' logged in.
+DEBUG:pyftpdlib:XXX [user]@127.0.0.1 <- PORT 127,0,0,1,242,189
+DEBUG:pyftpdlib:XXX [user]@127.0.0.1 -> 200 Active data connection established.
+DEBUG:pyftpdlib:XXX [user]@127.0.0.1 <- NLST
+DEBUG:pyftpdlib:XXX [user]@127.0.0.1 -> 125 Data connection already open. Transfer starting.
+DEBUG:pyftpdlib:[debug] call: close() (<DTPHandler(id=1733553060640, addr='127.0.0.1:62140', user='user')>)
+DEBUG:pyftpdlib:XXX [user]@127.0.0.1 -> 226 Transfer complete.
+DEBUG:pyftpdlib:XXX [user]@127.0.0.1 <- QUIT
+DEBUG:pyftpdlib:XXX [user]@127.0.0.1 -> 221 Goodbye.
+DEBUG:pyftpdlib:[debug] call: close() (<pyftpdlib.handlers.ActiveDTP connected 127.0.0.1:62141 at 0x1939fd07d60>)
+DEBUG:pyftpdlib:[debug] call: unregister(); fd was no longer in socket_map (<pyftpdlib.ioloop.Select (fds=2, tasks=4) at 0x1939fd07a00>)
+DEBUG:pyftpdlib:[debug] call: close() (<FTPHandler(id=1733553060640, addr='127.0.0.1:62140', user='user')>)
+INFO:pyftpdlib:XXX [user]@127.0.0.1 FTP session closed (disconnect).
+INFO:pyftpdlib:concurrency model: async
+INFO:pyftpdlib:masquerade (NAT) address: None
+INFO:pyftpdlib:passive ports: None
+DEBUG:pyftpdlib:poller: 'pyftpdlib.ioloop.Select'
+DEBUG:pyftpdlib:authorizer: 'pyftpdlib.authorizers.DummyAuthorizer'
+DEBUG:pyftpdlib:handler: 'pyftpdlib.handlers.type'
+DEBUG:pyftpdlib:max connections: 512
+DEBUG:pyftpdlib:max connections per ip: unlimited
+DEBUG:pyftpdlib:timeout: 300
+DEBUG:pyftpdlib:banner: 'pyftpdlib 1.5.7 ready.'
+DEBUG:pyftpdlib:max login attempts: 3
+INFO:pyftpdlib:>>> starting FTP server on 0.0.0.0:21, pid=7572 <<<
+INFO:pyftpdlib:XXX []@127.0.0.1 FTP session opened (connect)
+DEBUG:pyftpdlib:XXX []@127.0.0.1 -> 220 pyftpdlib 1.5.7 ready.
+DEBUG:pyftpdlib:XXX []@127.0.0.1 <- OPTS UTF8 ON
+DEBUG:pyftpdlib:XXX []@127.0.0.1 -> 530 Log in with USER and PASS first.
+DEBUG:pyftpdlib:XXX []@127.0.0.1 <- USER user
+DEBUG:pyftpdlib:XXX []@127.0.0.1 -> 331 Username ok, send password.
+DEBUG:pyftpdlib:XXX [user]@127.0.0.1 <- PASS ******
+DEBUG:pyftpdlib:XXX []@127.0.0.1 -> 530 Authentication failed.
+INFO:pyftpdlib:XXX []@127.0.0.1 USER 'user' failed login.
+DEBUG:pyftpdlib:XXX []@127.0.0.1 <- QUIT
+DEBUG:pyftpdlib:XXX []@127.0.0.1 -> 221 Goodbye.
+DEBUG:pyftpdlib:[debug] call: close() (<FTPHandler(id=1545143527472, addr='127.0.0.1:63460')>)
+INFO:pyftpdlib:XXX []@127.0.0.1 FTP session closed (disconnect).
+INFO:pyftpdlib:XXX []@127.0.0.1 FTP session opened (connect)
+DEBUG:pyftpdlib:XXX []@127.0.0.1 -> 220 pyftpdlib 1.5.7 ready.
+DEBUG:pyftpdlib:XXX []@127.0.0.1 <- OPTS UTF8 ON
+DEBUG:pyftpdlib:XXX []@127.0.0.1 -> 530 Log in with USER and PASS first.
+DEBUG:pyftpdlib:XXX []@127.0.0.1 <- USER user
+DEBUG:pyftpdlib:XXX []@127.0.0.1 -> 331 Username ok, send password.
+DEBUG:pyftpdlib:XXX [user]@127.0.0.1 <- PASS ******
+DEBUG:pyftpdlib:XXX []@127.0.0.1 -> 530 Authentication failed.
+INFO:pyftpdlib:XXX []@127.0.0.1 USER 'user' failed login.
+DEBUG:pyftpdlib:XXX []@127.0.0.1 <- QUIT
+DEBUG:pyftpdlib:XXX []@127.0.0.1 -> 221 Goodbye.
+DEBUG:pyftpdlib:[debug] call: close() (<FTPHandler(id=1545143527280, addr='127.0.0.1:63471')>)
+INFO:pyftpdlib:XXX []@127.0.0.1 FTP session closed (disconnect).
+INFO:pyftpdlib:XXX []@127.0.0.1 FTP session opened (connect)
+DEBUG:pyftpdlib:XXX []@127.0.0.1 -> 220 pyftpdlib 1.5.7 ready.
+DEBUG:pyftpdlib:XXX []@127.0.0.1 <- OPTS UTF8 ON
+DEBUG:pyftpdlib:XXX []@127.0.0.1 -> 530 Log in with USER and PASS first.
+DEBUG:pyftpdlib:XXX []@127.0.0.1 <- USER user
+DEBUG:pyftpdlib:XXX []@127.0.0.1 -> 331 Username ok, send password.
+DEBUG:pyftpdlib:XXX [user]@127.0.0.1 <- PASS ******
+DEBUG:pyftpdlib:XXX []@127.0.0.1 -> 530 Authentication failed.
+INFO:pyftpdlib:XXX []@127.0.0.1 USER 'user' failed login.
+DEBUG:pyftpdlib:XXX []@127.0.0.1 <- QUIT
+DEBUG:pyftpdlib:XXX []@127.0.0.1 -> 221 Goodbye.
+DEBUG:pyftpdlib:[debug] call: close() (<FTPHandler(id=1545143525216, addr='127.0.0.1:63472')>)
+INFO:pyftpdlib:XXX []@127.0.0.1 FTP session closed (disconnect).
+INFO:pyftpdlib:concurrency model: async
+INFO:pyftpdlib:masquerade (NAT) address: None
+INFO:pyftpdlib:passive ports: None
+DEBUG:pyftpdlib:poller: 'pyftpdlib.ioloop.Select'
+DEBUG:pyftpdlib:authorizer: 'pyftpdlib.authorizers.DummyAuthorizer'
+DEBUG:pyftpdlib:handler: 'pyftpdlib.handlers.type'
+DEBUG:pyftpdlib:max connections: 512
+DEBUG:pyftpdlib:max connections per ip: unlimited
+DEBUG:pyftpdlib:timeout: 300
+DEBUG:pyftpdlib:banner: 'pyftpdlib 1.5.7 ready.'
+DEBUG:pyftpdlib:max login attempts: 3
+INFO:pyftpdlib:>>> starting FTP server on 0.0.0.0:21, pid=14160 <<<
+INFO:pyftpdlib:XXX []@127.0.0.1 FTP session opened (connect)
+DEBUG:pyftpdlib:XXX []@127.0.0.1 -> 220 pyftpdlib 1.5.7 ready.
+DEBUG:pyftpdlib:XXX []@127.0.0.1 <- OPTS UTF8 ON
+DEBUG:pyftpdlib:XXX []@127.0.0.1 -> 530 Log in with USER and PASS first.
+DEBUG:pyftpdlib:XXX []@127.0.0.1 <- USER user
+DEBUG:pyftpdlib:XXX []@127.0.0.1 -> 331 Username ok, send password.
+DEBUG:pyftpdlib:XXX [user]@127.0.0.1 <- PASS ******
+DEBUG:pyftpdlib:XXX []@127.0.0.1 -> 530 Authentication failed.
+INFO:pyftpdlib:XXX []@127.0.0.1 USER 'user' failed login.
+DEBUG:pyftpdlib:XXX []@127.0.0.1 <- QUIT
+DEBUG:pyftpdlib:XXX []@127.0.0.1 -> 221 Goodbye.
+DEBUG:pyftpdlib:[debug] call: close() (<FTPHandler(id=2026328979488, addr='127.0.0.1:63488')>)
+INFO:pyftpdlib:XXX []@127.0.0.1 FTP session closed (disconnect).
+INFO:pyftpdlib:XXX []@127.0.0.1 FTP session opened (connect)
+DEBUG:pyftpdlib:XXX []@127.0.0.1 -> 220 pyftpdlib 1.5.7 ready.
+DEBUG:pyftpdlib:XXX []@127.0.0.1 <- OPTS UTF8 ON
+DEBUG:pyftpdlib:XXX []@127.0.0.1 -> 530 Log in with USER and PASS first.
+DEBUG:pyftpdlib:XXX []@127.0.0.1 <- USER user
+DEBUG:pyftpdlib:XXX []@127.0.0.1 -> 331 Username ok, send password.
+DEBUG:pyftpdlib:XXX [user]@127.0.0.1 <- PASS ******
+DEBUG:pyftpdlib:XXX []@127.0.0.1 -> 530 Authentication failed.
+INFO:pyftpdlib:XXX []@127.0.0.1 USER 'user' failed login.
+DEBUG:pyftpdlib:XXX []@127.0.0.1 <- QUIT
+DEBUG:pyftpdlib:XXX []@127.0.0.1 -> 221 Goodbye.
+DEBUG:pyftpdlib:[debug] call: close() (<FTPHandler(id=2026328979488, addr='127.0.0.1:63489')>)
+INFO:pyftpdlib:XXX []@127.0.0.1 FTP session closed (disconnect).
+INFO:pyftpdlib:concurrency model: async
+INFO:pyftpdlib:masquerade (NAT) address: None
+INFO:pyftpdlib:passive ports: None
+DEBUG:pyftpdlib:poller: 'pyftpdlib.ioloop.Select'
+DEBUG:pyftpdlib:authorizer: 'pyftpdlib.authorizers.DummyAuthorizer'
+DEBUG:pyftpdlib:handler: 'pyftpdlib.handlers.type'
+DEBUG:pyftpdlib:max connections: 512
+DEBUG:pyftpdlib:max connections per ip: unlimited
+DEBUG:pyftpdlib:timeout: 300
+DEBUG:pyftpdlib:banner: 'pyftpdlib 1.5.7 ready.'
+DEBUG:pyftpdlib:max login attempts: 3
+INFO:pyftpdlib:>>> starting FTP server on 0.0.0.0:21, pid=11412 <<<
+INFO:pyftpdlib:XXX []@127.0.0.1 FTP session opened (connect)
+DEBUG:pyftpdlib:XXX []@127.0.0.1 -> 220 pyftpdlib 1.5.7 ready.
+DEBUG:pyftpdlib:XXX []@127.0.0.1 <- OPTS UTF8 ON
+DEBUG:pyftpdlib:XXX []@127.0.0.1 -> 530 Log in with USER and PASS first.
+DEBUG:pyftpdlib:XXX []@127.0.0.1 <- USER user
+DEBUG:pyftpdlib:XXX []@127.0.0.1 -> 331 Username ok, send password.
+DEBUG:pyftpdlib:XXX [user]@127.0.0.1 <- PASS ******
+DEBUG:pyftpdlib:XXX [user]@127.0.0.1 -> 230 Login successful.
+INFO:pyftpdlib:XXX [user]@127.0.0.1 USER 'user' logged in.
+DEBUG:pyftpdlib:XXX [user]@127.0.0.1 <- PORT 127,0,0,1,221,155
+DEBUG:pyftpdlib:XXX [user]@127.0.0.1 -> 200 Active data connection established.
+DEBUG:pyftpdlib:XXX [user]@127.0.0.1 <- NLST
+DEBUG:pyftpdlib:XXX [user]@127.0.0.1 -> 125 Data connection already open. Transfer starting.
+DEBUG:pyftpdlib:[debug] call: close() (<DTPHandler(id=2344879761264, addr='127.0.0.1:56730', user='user')>)
+DEBUG:pyftpdlib:XXX [user]@127.0.0.1 -> 226 Transfer complete.
+DEBUG:pyftpdlib:XXX [user]@127.0.0.1 <- QUIT
+DEBUG:pyftpdlib:XXX [user]@127.0.0.1 -> 221 Goodbye.
+DEBUG:pyftpdlib:[debug] call: close() (<pyftpdlib.handlers.ActiveDTP connected 127.0.0.1:56731 at 0x221f5b9a6e0>)
+DEBUG:pyftpdlib:[debug] call: unregister(); fd was no longer in socket_map (<pyftpdlib.ioloop.Select (fds=2, tasks=4) at 0x221f5b99090>)
+DEBUG:pyftpdlib:[debug] call: close() (<FTPHandler(id=2344879761264, addr='127.0.0.1:56730', user='user')>)
+INFO:pyftpdlib:XXX [user]@127.0.0.1 FTP session closed (disconnect).
+INFO:pyftpdlib:concurrency model: async
+INFO:pyftpdlib:masquerade (NAT) address: None
+INFO:pyftpdlib:passive ports: None
+DEBUG:pyftpdlib:poller: 'pyftpdlib.ioloop.Select'
+DEBUG:pyftpdlib:authorizer: 'pyftpdlib.authorizers.DummyAuthorizer'
+DEBUG:pyftpdlib:handler: 'pyftpdlib.handlers.type'
+DEBUG:pyftpdlib:max connections: 512
+DEBUG:pyftpdlib:max connections per ip: unlimited
+DEBUG:pyftpdlib:timeout: 300
+DEBUG:pyftpdlib:banner: 'pyftpdlib 1.5.7 ready.'
+DEBUG:pyftpdlib:max login attempts: 3
+INFO:pyftpdlib:>>> starting FTP server on 0.0.0.0:21, pid=8944 <<<
+INFO:pyftpdlib:XXX []@127.0.0.1 FTP session opened (connect)
+DEBUG:pyftpdlib:XXX []@127.0.0.1 -> 220 pyftpdlib 1.5.7 ready.
+DEBUG:pyftpdlib:XXX []@127.0.0.1 <- OPTS UTF8 ON
+DEBUG:pyftpdlib:XXX []@127.0.0.1 -> 530 Log in with USER and PASS first.
+DEBUG:pyftpdlib:XXX []@127.0.0.1 <- USER 
+DEBUG:pyftpdlib:XXX []@127.0.0.1 -> 501 Syntax error: command needs an argument.
+DEBUG:pyftpdlib:XXX []@127.0.0.1 <- QUIT
+DEBUG:pyftpdlib:XXX []@127.0.0.1 -> 221 Goodbye.
+DEBUG:pyftpdlib:[debug] call: close() (<FTPHandler(id=2664424643728, addr='127.0.0.1:51048')>)
+INFO:pyftpdlib:XXX []@127.0.0.1 FTP session closed (disconnect).
+INFO:pyftpdlib:XXX []@127.0.0.1 FTP session opened (connect)
+DEBUG:pyftpdlib:XXX []@127.0.0.1 -> 220 pyftpdlib 1.5.7 ready.
+DEBUG:pyftpdlib:XXX []@127.0.0.1 <- OPTS UTF8 ON
+DEBUG:pyftpdlib:XXX []@127.0.0.1 -> 530 Log in with USER and PASS first.
+DEBUG:pyftpdlib:XXX []@127.0.0.1 <- USER 
+DEBUG:pyftpdlib:XXX []@127.0.0.1 -> 501 Syntax error: command needs an argument.
+DEBUG:pyftpdlib:XXX []@127.0.0.1 <- QUIT
+DEBUG:pyftpdlib:XXX []@127.0.0.1 -> 221 Goodbye.
+DEBUG:pyftpdlib:[debug] call: close() (<FTPHandler(id=2664421998800, addr='127.0.0.1:51132')>)
+INFO:pyftpdlib:XXX []@127.0.0.1 FTP session closed (disconnect).
+INFO:pyftpdlib:concurrency model: async
+INFO:pyftpdlib:masquerade (NAT) address: None
+INFO:pyftpdlib:passive ports: None
+DEBUG:pyftpdlib:poller: 'pyftpdlib.ioloop.Select'
+DEBUG:pyftpdlib:authorizer: 'pyftpdlib.authorizers.DummyAuthorizer'
+DEBUG:pyftpdlib:handler: 'pyftpdlib.handlers.type'
+DEBUG:pyftpdlib:max connections: 512
+DEBUG:pyftpdlib:max connections per ip: unlimited
+DEBUG:pyftpdlib:timeout: 300
+DEBUG:pyftpdlib:banner: 'pyftpdlib 1.5.7 ready.'
+DEBUG:pyftpdlib:max login attempts: 3
+INFO:pyftpdlib:>>> starting FTP server on 0.0.0.0:21, pid=10020 <<<
+DEBUG:pyftpdlib:[debug] call: unregister(); fd was no longer in socket_map (<pyftpdlib.ioloop.Select (fds=1, tasks=0) at 0x188e3e09480>)
+INFO:pyftpdlib:XXX []@127.0.0.1 FTP session opened (connect)
+DEBUG:pyftpdlib:XXX []@127.0.0.1 -> 220 pyftpdlib 1.5.7 ready.
+DEBUG:pyftpdlib:XXX []@127.0.0.1 <- OPTS UTF8 ON
+DEBUG:pyftpdlib:XXX []@127.0.0.1 -> 530 Log in with USER and PASS first.
+DEBUG:pyftpdlib:XXX []@127.0.0.1 <- USER user
+DEBUG:pyftpdlib:XXX []@127.0.0.1 -> 331 Username ok, send password.
+DEBUG:pyftpdlib:XXX [user]@127.0.0.1 <- PASS ******
+DEBUG:pyftpdlib:XXX [user]@127.0.0.1 -> 230 Login successful.
+INFO:pyftpdlib:XXX [user]@127.0.0.1 USER 'user' logged in.
+DEBUG:pyftpdlib:XXX [user]@127.0.0.1 <- PORT 127,0,0,1,200,48
+DEBUG:pyftpdlib:XXX [user]@127.0.0.1 -> 200 Active data connection established.
+DEBUG:pyftpdlib:XXX [user]@127.0.0.1 <- NLST
+DEBUG:pyftpdlib:XXX [user]@127.0.0.1 -> 125 Data connection already open. Transfer starting.
+DEBUG:pyftpdlib:[debug] call: close() (<DTPHandler(id=1687450503776, addr='127.0.0.1:51242', user='user')>)
+DEBUG:pyftpdlib:XXX [user]@127.0.0.1 -> 226 Transfer complete.
+INFO:pyftpdlib:XXX [user]@127.0.0.1 -> 421 Control connection timed out.
+DEBUG:pyftpdlib:[debug] call: close() (<FTPHandler(id=1687450503776, addr='127.0.0.1:51242', user='user')>)
+DEBUG:pyftpdlib:[debug] call: close() (<pyftpdlib.handlers.ActiveDTP connected 127.0.0.1:51248 at 0x188e3e348b0>)
+DEBUG:pyftpdlib:[debug] call: unregister(); fd was no longer in socket_map (<pyftpdlib.ioloop.Select (fds=1, tasks=0) at 0x188e3e09480>)
+INFO:pyftpdlib:XXX [user]@127.0.0.1 FTP session closed (disconnect).
+INFO:pyftpdlib:concurrency model: async
+INFO:pyftpdlib:masquerade (NAT) address: None
+INFO:pyftpdlib:passive ports: None
+DEBUG:pyftpdlib:poller: 'pyftpdlib.ioloop.Select'
+DEBUG:pyftpdlib:authorizer: 'pyftpdlib.authorizers.DummyAuthorizer'
+DEBUG:pyftpdlib:handler: 'pyftpdlib.handlers.type'
+DEBUG:pyftpdlib:max connections: 512
+DEBUG:pyftpdlib:max connections per ip: unlimited
+DEBUG:pyftpdlib:timeout: 300
+DEBUG:pyftpdlib:banner: 'pyftpdlib 1.5.7 ready.'
+DEBUG:pyftpdlib:max login attempts: 3
+DEBUG:pyftpdlib:SSL certfile: 'keycert.pem'
+DEBUG:pyftpdlib:SSL keyfile: 'keycert.pem'
+INFO:pyftpdlib:>>> starting FTP+SSL server on 0.0.0.0:21, pid=12272 <<<
+INFO:pyftpdlib:XXX []@127.0.0.1 FTP session opened (connect)
+DEBUG:pyftpdlib:XXX []@127.0.0.1 -> 220 pyftpdlib 1.5.7 ready.
+DEBUG:pyftpdlib:XXX []@127.0.0.1 <- OPTS UTF8 ON
+DEBUG:pyftpdlib:XXX []@127.0.0.1 -> 530 Log in with USER and PASS first.
+DEBUG:pyftpdlib:XXX []@127.0.0.1 <- USER user
+DEBUG:pyftpdlib:XXX []@127.0.0.1 -> 331 Username ok, send password.
+DEBUG:pyftpdlib:XXX [user]@127.0.0.1 <- PASS ******
+DEBUG:pyftpdlib:XXX [user]@127.0.0.1 -> 230 Login successful.
+INFO:pyftpdlib:XXX [user]@127.0.0.1 USER 'user' logged in.
+DEBUG:pyftpdlib:XXX [user]@127.0.0.1 <- PORT 127,0,0,1,201,203
+DEBUG:pyftpdlib:XXX [user]@127.0.0.1 -> 200 Active data connection established.
+DEBUG:pyftpdlib:XXX [user]@127.0.0.1 <- NLST
+DEBUG:pyftpdlib:XXX [user]@127.0.0.1 -> 125 Data connection already open. Transfer starting.
+DEBUG:pyftpdlib:[debug] call: close() (<TLS_DTPHandler(id=1986737132528, addr='127.0.0.1:51658', user='user')>)
+DEBUG:pyftpdlib:XXX [user]@127.0.0.1 -> 226 Transfer complete.
+DEBUG:pyftpdlib:XXX [user]@127.0.0.1 <- QUIT
+DEBUG:pyftpdlib:XXX [user]@127.0.0.1 -> 221 Goodbye.
+DEBUG:pyftpdlib:[debug] call: close() (<pyftpdlib.handlers.ActiveDTP connected 127.0.0.1:51659 at 0x1ce92c2d4e0>)
+DEBUG:pyftpdlib:[debug] call: unregister(); fd was no longer in socket_map (<pyftpdlib.ioloop.Select (fds=2, tasks=4) at 0x1ce92c2c520>)
+DEBUG:pyftpdlib:[debug] call: close() (<TLS_FTPHandler(id=1986737132528, addr='127.0.0.1:51658', user='user')>)
+INFO:pyftpdlib:XXX [user]@127.0.0.1 FTP session closed (disconnect).
